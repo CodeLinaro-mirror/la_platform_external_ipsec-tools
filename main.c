@@ -177,7 +177,6 @@ int main(int argc, char **argv)
 
 #ifdef ANDROID_CHANGES
     shutdown(control, SHUT_WR);
-    setuid(AID_VPN);
 #endif
 
     while (1) {
